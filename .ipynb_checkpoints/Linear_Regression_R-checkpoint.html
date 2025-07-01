@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Linear_Regression_R</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Regression_R</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7521,17 +7521,6 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=67ed9348-4862-4f4a-9c14-ade6d1e4e9bd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This read the CSV into DataFrame</p>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a3016fd5-761c-47d5-8c19-883d6aa1b495">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7543,17 +7532,6 @@ a.anchor-link {
 <div class="highlight hl-r"><pre><span></span><span class="n">dataset</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">read.csv</span><span class="p">(</span><span class="s">"regression_data.csv"</span><span class="p">)</span><span class="w">   </span><span class="c1">## Tell R to read the data file</span>
 </pre></div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f0353310-243a-4080-8bfe-7c491f4499ea">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This step use plot to generate a scatter plot</p>
 </div>
 </div>
 </div>
@@ -7988,17 +7966,6 @@ rkJggg==" width="420"/>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0cc5fd58-8255-442e-b343-0bb4bd796c74">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This step use lm to fit a linear regression model</p>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=83f72adf-2bba-40e8-8a68-346619ec21ca">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8010,17 +7977,6 @@ rkJggg==" width="420"/>
 <div class="highlight hl-r"><pre><span></span><span class="n">model</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">lm</span><span class="p">(</span><span class="n">Salary</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">YearsExperience</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="o">=</span><span class="n">dataset</span><span class="p">)</span><span class="w">  </span><span class="c1">## Tell R which model to fit in and how to fit dataset into model</span>
 </pre></div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=11e9b400-2142-47f0-b2fb-3cef810a3181">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This step use ggplot to create the regression line</p>
 </div>
 </div>
 </div>
@@ -8687,17 +8643,6 @@ l5e3a9euiy+++JSLBdB9cK1YAIi1mTNnzps3b//+/X379lU7CwBNYcYOAABAIyh2AAAAGkGx
 A4BYS0tL6zgqDgAiiGPsAAAANIIZOwAAAI2g2AEAAGgExQ4AAEAjKHYAAAAaQbEDAADQCIod
 AACARlDsAAAANIJiBwAAoBH/H/UrDj9nieOaAAAAAElFTkSuQmCC" width="420"/>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ce1f33b2-d55a-4285-be51-8f511740b915">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This step views the coefficients that evaluate the model</p>
 </div>
 </div>
 </div>
