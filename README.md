@@ -1,12 +1,11 @@
-The purpose of the assignment part 1: 
-To perform linear regression using both Python and R in Jupyter notebooks.
+The purpose of the assignment: 
+To perform linear regression using both Python and R in Jupyter notebooks, while improve the evaluation and the quality of the plot by showing parameters on the plot.
 Tools/libraries used:
 Python: pandas, matplotlib, sklearn
 R: ggplot2
 I added some explainations with ## ... ## based on my personal understanding of what we are doing on each step as well
 
-The purpose of the assignment part 2: 
-To convert Jupyter notebooks into standalone script.
+Then convert Jupyter notebooks into standalone script.
 Tools/libraries used:
 Python: pandas, matplotlib, sklearn
 R: ggplot2
